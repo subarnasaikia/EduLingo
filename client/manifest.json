@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "EduLingo",
+    "version": "1.0.0",
+    "description": "Instant Dictionay & Translator",
+    "icons": {
+        "16": "icons/EduLingo16.png",
+        "32": "icons/EduLingo32.png",
+        "48": "icons/EduLingo48.png",
+        "128": "icons/EduLingo128.png"
+    }
+}
