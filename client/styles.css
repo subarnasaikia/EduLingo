@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Handlee';
+    src: url('fonts/Handlee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #151515;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    height: 100vh;
+    margin: 0;
+    font-family: Handlee, Arial, sans-serif;
+    min-width: 320px;
+    color: #FFFFFF;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-slogan{
+    grid-column-start: 2;
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+
+.title {
+    color: #EEEEEE;
+    font-size: 2em;
+}
+
+.slogan {
+    color: #C73659;
+    font-size: 1em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #FFE8C5;
+    margin: 0;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: top;
+}
+
+.Quicksettings {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.setting-type img {
+    width: 10px;
+    padding-top: 0px;
+}
+
+.setting-type {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 20px;
+}
+
+.setting-type h4 {
+    text-align: end;
+    padding-right: 20px;
+    color: #97BE5A;
+}
+
+.Quicksettings h2 {
+    color: #FFA27F;
+    font-size: 1.8em;
+}
+
+.settings {
+    display: grid;
+    /* grid-template-columns: none; */
+    padding-left: 40px;
+}
+
+.set-line {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    /* padding-bottom: 0px; */
+    /* margin-bottom: 0px; */
+}
+
+.setting-title {
+    font-size: 1.5em;
+}
+
+.dropDown {
+    grid-column-start: 2;
+    text-align: end;
+    padding-right: 20px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 80%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 0px;
+    padding-right: 20px;
+}
+
+.dropdown-content p {
+    display: block;
+    padding: 10px;
+    margin: 0;
+}
+
+.dropdown-content p:hover {
+    background-color: #FFA27F;
+    color: #FFFFFF;
+}
+
+.dropDown:hover .dropdown-content {
+    display: block;
+}
+
+footer {
+    color: #EEEEEE;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+a {
+    color: #C73659;
+    text-decoration: none;
+}

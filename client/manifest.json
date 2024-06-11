@@ -8,5 +8,8 @@
         "32": "icons/EduLingo32.png",
         "48": "icons/EduLingo48.png",
         "128": "icons/EduLingo128.png"
+    },
+    "action":{
+        "default_popup": "settings.html"
     }
 }
